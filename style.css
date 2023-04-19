@@ -113,3 +113,68 @@ button:hover {
     }
 
 }
+
+@media (max-width: 568px) {
+    h1 {
+        font-size: 30px;
+        margin-left: -130px;
+    }
+
+    h2 {
+        margin-left: 50px;
+    }
+
+    body {
+        width: 530px;
+        height: 100px;
+    }
+
+    #div0 {
+        height: 80px;
+        width: 80px;
+        animation: balao 3s;
+    }
+
+    #div1 {
+        height: 80px;
+        width: 80px;
+        margin-left: 160px;
+        animation: balao 4s;
+    }
+
+    #div2 {
+        height: 80px;
+        width: 80px;
+        margin-left: 230px;
+        animation: balao 5s;
+    }
+
+    #div3 {
+        height: 80px;
+        width: 80px;
+        margin-left: 300px;
+        animation: balao 6s;
+    }
+
+    #div4 {
+        height: 80px;
+        width: 80px;
+        margin-left: 200px;
+        animation: balao 12s;
+    }
+
+    #div5 {
+        height: 80px;
+        width: 80px;
+        margin-left: 120px;
+        animation: balao 3s;
+    }
+
+    #div6 {
+        height: 80px;
+        width: 80px;
+        margin-left: 80px;
+        animation: balao 11s;
+    }
+    
+}
