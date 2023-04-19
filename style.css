@@ -106,3 +106,10 @@ button:hover {
     border-radius: 50%;
     animation: balao 8s;
 }
+
+@keyframes balao {
+    0% {
+        margin-top: 400px ;
+    }
+
+}
