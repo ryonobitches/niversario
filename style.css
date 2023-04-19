@@ -1,0 +1,108 @@
+body {
+    transition: all 0.4s;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rubik Pixels', cursive;
+}
+
+h2 {
+    transition: all 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    margin-top: 0px;
+    color: rgb(33, 0, 48);
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    margin-left: 500px;
+    font-family: 'Rubik Pixels', cursive;
+}
+
+button {
+    margin-left: 610px;
+    cursor: pointer;
+    border: none;
+    height: 50px;
+    transition: all 0.4s;
+    border-radius: 8px;
+}
+
+button:hover {
+    transition:  0.4s;
+    color: white;
+    background-image: linear-gradient( to top, rgb(0, 0, 87), rgb(14, 0, 39) );
+}
+
+#div0 {
+    background-color: red;
+    height: 200px;
+    margin-top: -600px;
+    width: 200px;
+    border-radius: 50%;
+    animation: balao 2s;
+}
+
+#div1 {
+    background-color: rgb(94, 255, 0);
+    height: 200px;
+    margin-top: -600px;
+    margin-left: 1000px;
+    width: 200px;
+    border-radius: 50%;
+    animation: balao 3s;
+}
+
+#div2 {
+    background-color: rgb(162, 0, 255);
+    height: 200px;
+    margin-top: -600px;
+    margin-left: 900px;
+    width: 200px;
+    border-radius: 50%;
+    animation: balao 4s;
+}
+
+#div3 {
+    background-color: rgb(255, 230, 0);
+    height: 200px;
+    margin-top: -600px;
+    margin-left: 700px;
+    width: 200px;
+    border-radius: 50%;
+    animation: balao 5s;
+}
+
+#div4 {
+    background-color: rgb(68, 0, 255);
+    height: 200px;
+    margin-top: -600px;
+    margin-left: 400px;
+    width: 200px;
+    border-radius: 50%;
+    animation: balao 6s;
+}
+
+#div5 {
+    background-color: rgb(255, 0, 234);
+    height: 200px;
+    margin-top: -610px;
+    margin-left: 240px;
+    width: 200px;
+    border-radius: 50%;
+    animation: balao 7s;
+}
+
+#div6 {
+    background-color: rgb(0, 255, 255);
+    height: 200px;
+    margin-top: -600px;
+    margin-left: 550px;
+    width: 200px;
+    border-radius: 50%;
+    animation: balao 8s;
+}
